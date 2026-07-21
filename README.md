@@ -319,3 +319,8 @@ if __name__ == "__main__":
     run_pipeline()
 
 
+Authors & Contributors
+Kazi Mohammed Arsh — Lead AI/ML Engineer & Systems Architect
+Faisal Shaikh — Co-Author & Quantitative Specialist
+Anas Khan — Co-Author & Data Pipeline Architect
+
