@@ -240,22 +240,14 @@ To deploy this pipeline locally and begin generating predictions, follow this st
          [Database Execution (Ingestion -> Output)]
 
 1. File Structure Architecture
-Ensure your local project workspace is organized as follows:
-Plaintext
-commodity_predictor/
-│
-├── data/
-│   └── cached_prices.csv        # Automated local caching layer
-│
-├── src/
-│   ├── __init__.py
-│   ├── ingestion.py             # Pulls and cleans yfinance data
-│   ├── features.py              # Computes technical indicators
-│   └── models.py                # Defines estimators and validation
-│
-├── main.py                      # Main pipeline execution script
-├── requirements.txt             # Project library dependencies
-└── README.md                    # System documentation (this file)
+```text
+.
+├── dataset.jsonl                  # Prepared dataset for model training / fine-tuning
+├── prepare_data.py               # Data parsing, cleaning, and formatting script
+├── train.ipynb                    # Jupyter notebook for model training & evaluation
+├── commdities_prce_pred.py       # Main Python script for price prediction inference
+├── commdities_prce_pred.ipynb    # Research & EDA notebook for commodity price forecasting
+└── README.md                      # Repository documentation and project overview
 
 2. Dependency Resolution
 Create a requirements.txt file containing the precise packages required to run the engine:
