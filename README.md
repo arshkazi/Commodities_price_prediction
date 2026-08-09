@@ -249,6 +249,7 @@ To deploy this pipeline locally and begin generating predictions, follow this st
 ├── commdities_prce_pred.ipynb    # Research & EDA notebook for commodity price forecasting
 └── README.md                      # Repository documentation and project overview
 
+```
 2. Dependency Resolution
 Create a requirements.txt file containing the precise packages required to run the engine:
 Plaintext
